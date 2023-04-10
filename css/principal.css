@@ -158,3 +158,78 @@ h1#tituloPrincipal {
     height: 70px;
     fill: white;
 }
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        justify-content: space-around;
+    }
+
+    nav div a{
+        font-size: 4vw;
+    }
+    .containerUsuario {
+    
+        width: 100%;
+       margin-top: 30px ;    
+        color: white;
+       
+        
+    }
+
+    img,span {
+        display: none;
+        
+        
+    }
+    h1#tituloPrincipal , h1#consultaPonto{
+        display: flex;
+        width: 100%;
+        
+    }
+    h1#tituloPrincipal::before, h1#consultaPonto::before  {
+        content: " ";        
+        background-image: url("../img/expression_simbolo.png");        
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40px;
+    }
+
+    button#botaoPonto {
+        background-image: url(../img/fingerprint_FILL0_wght400_GRAD0_opsz48.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        border-style: none;
+        background-position: center;
+       /* border-radius: 30%;
+        width: 50%;*/
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        
+        }
+
+    #botaoPonto:hover {
+        color: white;
+        cursor:default;
+    }
+
+    form#formulario {       
+        height: 100%;
+    }
+
+    div#containeTabela {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    caption{
+        text-align: left;
+    }    
+    
+}

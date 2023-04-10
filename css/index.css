@@ -73,7 +73,7 @@ button:hover {
     cursor: pointer;
 }
 
-h1{
+#tituloPrincipal{
     font-size: 3em;
 }
 
@@ -84,15 +84,44 @@ img {
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 
     .container {
     
-        width: 50vw;
-        margin: 0 auto;
-        background-color: red;
+        width: 100%;
+        /*margin: 130px 0 auto;    */
         color: white;
-        height: 200px;
+        height: 70%;
+        
+    }
+
+    img {
+        width: 100vw;
+        
+    }
+
+    button#botaoPonto {
+        background-image: url(../img/fingerprint_FILL0_wght400_GRAD0_opsz48.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        border-style: none;
+        background-position: center;
+       /* border-radius: 30%;
+        width: 50%;*/
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        
+        }
+
+    #botaoPonto:hover {
+        color: white;
+        cursor:default;
+    }
+
+    form#formulario {       
+        height: 100%;
     }
     
 }

@@ -30,4 +30,7 @@ function ponto(){
 function alterarTipo(){
     let tipo = document.getElementById("usarioComum");    
     tipo.innerHTML = "Administrador"   ;
+    tipo.style.backgroundColor = "#d34293";
+    tipo.style.color = "white";
+    tipo.style.fontWeight = "bold";
 }
