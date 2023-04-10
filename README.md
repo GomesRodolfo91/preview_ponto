@@ -11,4 +11,6 @@ Este projeto consistema numa apresentação de layout e comportamento, sem uma b
 Usuário: teste
 Senha: 12345
 
+Versão mobile adicionada 
+
 Desenvolvido por Rodolfo G Gomes
