@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="../css/principal.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" sizes="48x48" href="../img/expression_simbolo.png">
+
+    <title>R-Ponto Digital</title>
+</head>
+<body> 
+    <header id="menuPrincipal">
+        <figure>
+            <img src="../img/expression_semcomplemento.png" alt="Capa">
+        </figure>
+        <h1 id="consultaPonto">Usuários</h1>
+       <span>R-Ponto Digital</span>
+    </header>
+    <nav id="menu">   
+        <div id="home"><a href="principal.html"><svg class="botoesNavegacao" height="48" viewBox="0 96 960 960" width="48"><path d="M220 876h150V626h220v250h150V486L480 291 220 486v390Zm-60 60V456l320-240 320 240v480H530V686H430v250H160Zm320-353Z"/></svg> Início</a>  </div>
+        <div id="sair"><a href="../index.html"><svg class="botoesNavegacao" height="48" viewBox="0 96 960 960" width="48"><path d="M180 936q-24 0-42-18t-18-42V666h60v210h600V274H180v212h-60V274q0-24 18-42t42-18h600q24 0 42 18t18 42v602q0 24-18 42t-42 18H180Zm233-167-45-45 118-118H120v-60h366L368 428l45-45 193 193-193 193Z"/></svg> Sair</a></div>
+    </nav>  
+    
+    <div class="container">        			
+
+        <form method="POST" action="" id="formulario">       
+            <div>
+                <label  for="matricula"><svg class="botoesCadastroUsuario" height="48" viewBox="0 96 960 960" width="48"><path d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800 764 800 802v94H160Zm60-60h520v-34q0-16-9.5-30.5T707 750q-64-31-117-42.5T480 696q-57 0-111 11.5T252 750q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570 425q0-39-25.5-64.5T480 335q-39 0-64.5 25.5T390 425q0 39 25.5 64.5T480 515Zm0-90Zm0 411Z"/></svg>Nome</label>         
+                <input type="text"  name="matricula" id="login" placeholder="Ex:...joaosilva" required>
+            </div>         
+            <div >
+                <label  for="senha"><svg class="botoesCadastroUsuario" height="48" viewBox="0 96 960 960" width="48"><path d="M220 976q-24.75 0-42.375-17.625T160 916V482q0-24.75 17.625-42.375T220 422h70v-96q0-78.85 55.606-134.425Q401.212 136 480.106 136T614.5 191.575Q670 247.15 670 326v96h70q24.75 0 42.375 17.625T800 482v434q0 24.75-17.625 42.375T740 976H220Zm0-60h520V482H220v434Zm260.168-140Q512 776 534.5 753.969T557 701q0-30-22.668-54.5t-54.5-24.5Q448 622 425.5 646.5t-22.5 55q0 30.5 22.668 52.5t54.5 22ZM350 422h260v-96q0-54.167-37.882-92.083-37.883-37.917-92-37.917Q426 196 388 233.917 350 271.833 350 326v96ZM220 916V482v434Z"/></svg>Senha</label>         
+                <input type="text"  name="senha" id="senha" placeholder="Ex:...Senha" required>
+            </div> 
+            <div >
+                <label  for="entrada"><svg class="botoesCadastroUsuario" height="48" viewBox="0 96 960 960" width="48"><path d="M306 662q-17 0-28.5-11.5T266 622q0-17 11.5-28.5T306 582q17 0 28.5 11.5T346 622q0 17-11.5 28.5T306 662Zm177 0q-17 0-28.5-11.5T443 622q0-17 11.5-28.5T483 582q17 0 28.5 11.5T523 622q0 17-11.5 28.5T483 662Zm170 0q-17 0-28.5-11.5T613 622q0-17 11.5-28.5T653 582q17 0 28.5 11.5T693 622q0 17-11.5 28.5T653 662ZM180 976q-24 0-42-18t-18-42V296q0-24 18-42t42-18h65v-60h65v60h340v-60h65v60h65q24 0 42 18t18 42v620q0 24-18 42t-42 18H180Zm0-60h600V486H180v430Zm0-490h600V296H180v130Zm0 0V296v130Z"/></svg>Entrada</label>         
+                <input type="time"  name="entrada" id="entrada" placeholder="Ex:08:00" required>
+            </div> 
+            <div>
+                <label  for="saida"><svg class="botoesCadastroUsuario" height="48" viewBox="0 96 960 960" width="48"><path d="M306 662q-17 0-28.5-11.5T266 622q0-17 11.5-28.5T306 582q17 0 28.5 11.5T346 622q0 17-11.5 28.5T306 662Zm177 0q-17 0-28.5-11.5T443 622q0-17 11.5-28.5T483 582q17 0 28.5 11.5T523 622q0 17-11.5 28.5T483 662Zm170 0q-17 0-28.5-11.5T613 622q0-17 11.5-28.5T653 582q17 0 28.5 11.5T693 622q0 17-11.5 28.5T653 662ZM180 976q-24 0-42-18t-18-42V296q0-24 18-42t42-18h65v-60h65v60h340v-60h65v60h65q24 0 42 18t18 42v620q0 24-18 42t-42 18H180Zm0-60h600V486H180v430Zm0-490h600V296H180v130Zm0 0V296v130Z"/></svg>Saída</label>         
+                <input type="time"  name="saida" id="saida" placeholder="Ex: 17:00" required>
+            </div> 
+           
+            <button type="button" onclick="" name="cadastrar"> Cadastrar Usuário </button>
+        </form>
+    </div>  
+
+</body>
+</html>
