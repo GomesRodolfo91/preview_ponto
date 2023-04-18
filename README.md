@@ -13,4 +13,6 @@ Senha: 12345
 
 Versão mobile adicionada 
 
+Página disponível: https://gomesrodolfo91.github.io/preview_ponto/
+
 Desenvolvido por Rodolfo G Gomes
